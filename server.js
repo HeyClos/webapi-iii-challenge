@@ -1,4 +1,6 @@
-const express = 'express';
+const express = require('express'); // importing a CommonJS module
+const helmet = require('helmet');
+// const logger = require('morgan');
 
 const server = express();
 
